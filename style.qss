@@ -1,0 +1,83 @@
+
+        QListWidget {
+            color: #FFFFFF;
+            background-color: #33373B;
+            }
+
+            QListWidget::item {
+            height: 50px;
+            }
+
+            QListWidget::item:selected {
+            background-color: #2ABf9E;
+            }
+
+            /*QLabel {*/
+            /*    background-color: #FFFFFF;*/
+            /*    qproperty-alignment: AlignCenter*/
+            /*}*/
+
+            QTreeWidget {
+            color: #FFFFFF;
+            background-color: #33373B;
+            font-size: 18px;
+            }
+
+            QTreeWidget::item:selected {
+            background-color: #2ABf9E;
+            }
+
+            QLabel{
+            color: #33373B;
+            background-color: None;
+            }
+
+            QLineEdit {
+            border: 2px solid gray;
+            border-radius: 10px;
+            padding: 0 8px;
+            background: greenyellow;
+            selection-background-color: darkgray;
+            font-size: 18px;
+            }
+
+            QLineEdit[echoMode="2"] {
+            lineedit-password-character: 9679;
+            }
+
+            QLineEdit:read-only {
+            background: lightblue;
+            }
+
+            QPushButton {
+            border: 2px solid #8f8f91;
+            border-radius: 10px;
+            background-color: #2ABf9E;
+            min-width: 50px;
+            }
+
+            QPushButton:pressed {
+            background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                              stop: 0 #dadbde, stop: 1 #f6f7fa);
+            }
+
+            QPushButton:flat {
+            border: none; /* no border for a flat push button */
+            }
+
+            QPushButton:default {
+            border-color: navy; /* make the default button prominent */
+            }
+
+            QScrollBar:vertical {
+            border: blue;
+            background: orangered;
+            border-radius: 10px;
+            }
+
+            QScrollBar:horizontal {
+            border: blue;
+            background: blue;
+            border-radius: 10px;
+            }
+        
